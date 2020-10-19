@@ -8,5 +8,5 @@ RUN apt-get update && \
     openjdk-8-jdk
 ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
 RUN wget https://piapitest.s3-us-west-2.amazonaws.com/bankingregion.jar
-EXPOSE 8087
+EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "bankingregion.jar"]
