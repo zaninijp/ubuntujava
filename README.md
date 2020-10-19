@@ -2,7 +2,7 @@
 - ubuntu 16 container
 - openjdk8 
 - java_home declared
-- sample springboot api on port 8087
+- sample springboot api on port 8080
 
 
 docker build -t ujspring .
