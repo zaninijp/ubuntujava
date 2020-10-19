@@ -7,5 +7,5 @@
 
 docker build -t ujspring .
 
-docker run -dti -p 8087:8087 ujspring
+docker run -dti -p 8080:8080 ujspring
 
